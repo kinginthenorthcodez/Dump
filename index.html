@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinginthenorth Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menubar">
+                <h1>North Code</h1>
+                <a href="#" id="btn-menu"><img id="menu-img" src="./assets/images/bars/IconMenu.png" alt="menu icon"></a>
+            </div>
+            <div id="main-menu" class="desktop-menu mobile-hide">
+                <h1>North Code</h1>
+                <div class="main-menu">
+                    <ul class="menu-items">
+                        <li class="menu-item"><a href="#folio">Portifolio</a> <img src="./assets/images/bars/Union.png" alt="arrow icon"></li>
+                        <li class="menu-item"><a href="#about">About</a> <img src="./assets/images/bars/Union.png" alt="arrow icon"></li>
+                        <li class="menu-item"><a href="#contact">Contact</a> <img src="./assets/images/bars/Union.png" alt="arrow icon"></li>
+                    </ul>
+                    <img src="./assets/images/Icon-Mail.svg" alt="Mail Icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="headline" id="folio">
+        <div class="headtext">
+            <h1 class="primary-text"> Kinginthenorth codez</h1>
+            <h2 class="sub-text"> Software Developer</h2>
+        </div>
+        <div class="surport-text">
+            <div class="intro">
+                <p>
+                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+            </div>
+            <hr class="divider">
+            <div class="items">
+                <div class="item">
+                    <h3>Language</h3>
+                    <ul class="list-items">
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Frameworks</h3>
+                    <ul class="list-items">
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>Skills</h3>
+                    <ul class="list-items">
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Termial</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="divider">
+            <div class="social-items">
+                <div class="more m1">
+                    <img src="./assets/images/Group55.svg" alt="Arrow down icon">
+                    <p>Work</p>
+                </div>
+                <div class="social">
+
+                    <a href="#"><img src="./assets/images/GitHub.svg" alt="Github icon"></a>
+                    <a href="#"><img src="./assets/images/Angelist.svg" alt="Angelist icon"></a>
+                    <a href="#"><img src="./assets/images/Linkedin.svg" alt="Linkedin icon"></a>
+                    <a href="#"><img src="./assets/images/Twitter.svg" alt="Twitter icon"></a>
+                    <a href="#"><img src="./assets/images/Medium.svg" alt="Medium icon"></a>
+                </div>
+                <div class="more m2">
+                    <img src="./assets/images/Group55.svg" alt="Arrow down icon">
+                    <p>Work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="workg" id="about">
+        <section class="work" id="workbg">
+            <div class="worktitle">
+                <h1>MY RECENT<br> WORKS</h1>
+                <hr class="divider">
+            </div>
+            <div class="cards" id="projects-section">
+            </div>
+        </section>
+    </div>
+    <section class="contact-sec" id="contact">
+        <h1 class="headone"> CONTACT US </h1>
+        <h1 class="headtwo"> Let's Chat </h1>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it
+        </p>
+        <form class="contact-form" action="https://formspree.io/f/mknyzlre" method="post" >
+            <input type="text" id="user-name" name="username" placeholder="Name" maxlength="30" required>
+            <span class="error hide" id="name-error"></span>
+            <input type="email" id="email" name="email" placeholder="jeremy@gmail.com" maxlength="30" required>
+            <span class="error hide" id="email-error"></span>
+            <textarea name="text" id="message" placeholder="Enter text here" maxlength="500" required>
+            </textarea>
+            <span class="error hide" id="msg-error"></span>
+
+            <div class="btn">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+
+        <hr class="divider">
+
+        <footer>
+            <div class="social">
+                <a href="#"><img src="./assets/images/GitHub.svg" alt="Github icon"></a>
+                <a href="#"><img src="./assets/images/Angelist.svg" alt="Angellist icon"></a>
+                <a href="#"><img src="./assets/images/Linkedin.svg" alt="Linkedin icon"></a>
+                <a href="#"><img src="./assets/images/Twitter.svg" alt="Twitter icon"></a>
+                <a href="#"><img src="./assets/images/Medium.svg" alt="Medium icon"></a>
+            </div>
+
+            <a href="emailhere@email.com" class="email">emailhere@email.com</a>
+        </footer>
+
+    </section>
+    
+    <!--  Modal Section -->
+    <div class="modal hide">
+        <div class="overlay">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modal-title">Multi-Post Stories </h2>
+                    <img src="./assets/images/bars/Icon.svg" id="closeModal" alt="close button">
+                </div>
+                <div class="modal-body">
+                    <div class="modal-profile">
+                        <img src="./assets/images/bars/SnapshootPortfolio.svg" id="modal-img" alt="project profile">
+                    </div>
+                    <div class="modal-description">
+                        <p id="modal-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting  ever since the 1500s, when an unknown printer took a galley of type veris lapoa todoe.
+                        </p>
+                    </div>
+                    <ul class="modal-list" id="modal-tags">
+                    </ul>
+                    <div class="modal-btn">
+                        <a href="#" class=" btn see-live" id="modal-live">See Live <img src="./assets/images/bars/Icon-live.svg" alt="button img"></a>
+                        <a href="#" class=" btn see-source" id="modal-source">See Source <img src="./assets/images/bars/Vector-source.svg" alt="button img"></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
